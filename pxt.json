@@ -1,0 +1,36 @@
+{
+    "name": "MatrixMicro",
+    "version": "1.0.41",
+    "description": "The extension for MATRIX Micro controller and micro:bit PXT target",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1",
+        "MatrixColor": "github:Matrix-Robotics/pxt-MatrixColor#v1.0.4",
+        "MatrixMotion": "github:Matrix-Robotics/pxt-MatrixMotion#v1.0.6",
+        "MatrixMotor": "github:Matrix-Robotics/pxt-MatrixMotor#v1.0.5",
+        "MatrixServo": "github:Matrix-Robotics/pxt-MatrixServo#v1.0.4",
+        "MatrixLaser": "github:Matrix-Robotics/pxt-MatrixLaser#v1.0.1"
+    },
+    "files": [
+        "README.md",
+        "matrix.ts",
+        "matrix_modules/Serial_IT.ts",
+        "matrix_modules/PCA9633.ts",
+        "matrix_modules/HC-SR04.ts",
+        "matrix_modules/ADS1015.ts",
+        "matrix_modules/WS2812B.ts",
+        "matrix_modules/MXi2c.ts",
+        "_locales/zh-tw/MatrixMicro-jsdoc-strings.json",
+        "_locales/zh-tw/MatrixMicro-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
